@@ -1,0 +1,5 @@
+RegisterNetEvent("bankhack:success")
+AddEventHandler("bankhack:success", function(word)
+    print("Bank hack successful with word: " .. word)
+    -- Add further logic here (e.g., giving rewards, logging, etc.)
+end)

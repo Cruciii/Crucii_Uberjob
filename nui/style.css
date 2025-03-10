@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* The terminal box is hidden by default */
+.terminal {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;  /* Adjust width as needed */
+    max-width: 90%;
+    padding: 30px;
+    border: 3px solid #33FF33;
+    background-color: #000; /* Solid black background */
+    box-shadow: 0 0 15px #33FF33;
+    transform: translate(-50%, -50%);
+    color: #33FF33;
+}
+
+/* Timer container styling */
+#timer-container {
+    width: 100%;
+    height: 20px;
+    border: 1px solid #33FF33;
+    margin-bottom: 20px;
+}
+
+/* Timer bar styling */
+#timer-bar {
+    width: 100%;
+    height: 100%;
+    background-color: #33FF33;
+}
+
+/* Display area styling */
+#display {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+}
+
+/* Input styling */
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #33FF33;
+    background-color: #000;
+    color: #33FF33;
+    font-size: 16px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #33FF33;
+    background-color: #000;
+    color: #33FF33;
+    font-size: 16px;
+    cursor: pointer;
+}
